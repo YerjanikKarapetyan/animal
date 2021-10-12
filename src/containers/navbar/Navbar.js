@@ -16,7 +16,7 @@ const Navbar = () =>{
           <h1 className = {'navbarLogo'}><i className='fas fa-paw'></i></h1>
             <ul className = {'nav-menu'}>
               <li className ={'item.cName'}>
-                <Link to="/">Home</Link>
+                <Link to="/Products">Home</Link>
               </li>
               <li>
                 <Link to="/Products">Products</Link>
