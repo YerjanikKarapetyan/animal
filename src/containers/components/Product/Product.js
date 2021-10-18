@@ -60,14 +60,12 @@ const Product = () =>{
         else alert('You must read something');
     }
    
-    
     const deleteBtn = (id) => {
         fetch(`http://localhost:3000/products/${id}`,{
             method: 'Delete'
         })
         getProducts();
     }
-
 
     return(
         <div className={'main-prod'}>
@@ -88,6 +86,14 @@ const Product = () =>{
                         <input value={price} onChange={priceInput}  maxLength={'12'} type={'Number'}/>
                     </div>
                     <br></br>
+                    {/* <div className={'checkboxes'}>
+                        <p> Male
+                            <input type = {'checkbox'} checked={false}/>
+                        </p>
+                        <p> Female  
+                            <input type = {'checkbox'} checked={false}/>
+                        </p>
+                    </div> */}
                     <div>
                         <span>Phone:</span>
                         <br></br>
@@ -98,9 +104,7 @@ const Product = () =>{
                         <button value={image} type ={"file"} onClick ={addImage}>Image</button>
                         <button>Clear</button>
                     </div>
-
                 </div>
-
                 {products.map(product => <ul className={'product-ul'} key={product.id}>
                     <li className={'product-title-li'} maxLength={'8'}>
                         {product.title}

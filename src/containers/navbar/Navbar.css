@@ -6,14 +6,12 @@
     overflow: hidden;
     position: fixed;
     justify-content: space-between;
-    background-color: rgb(230, 230, 230);
-    border-bottom: 5px solid rgb(255, 0, 0);
 }
 
 .navbarLogo{
     display: flex;
     margin: auto 5px;
-    color:  rgb(255, 0, 0);
+    color:  white;
     font-family: 'WindSong', cursive;
     padding: 10px 25px;
     border-radius: 10px;
@@ -30,8 +28,8 @@
 
 .navbarItems ul li a:link, a:visited {
     /* background-color:   #5C5F58; */
-    color: black;
-    padding: 14px 25px;
+    color: white;
+    padding: 5px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -41,9 +39,9 @@
 }
 
 .navbarItems ul li a:hover, a:active {
-    border-right: red 1px solid;
-    border-bottom: red 1px solid;
-    color: red;
+    border-right: white 1px solid;
+    border-bottom: white 1px solid;
+    color: white;
     
  }
 
@@ -52,7 +50,7 @@
     display: flex;
     justify-content: space-around;
     text-align: center;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 

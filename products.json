@@ -1,168 +1,60 @@
 {
   "products": [
     {
-      "title": "11",
+      "title": "1",
       "description": "1",
       "price": "1",
       "phone": "1",
-      "gender": "true",
-      "id": 25
-    },
-    {
-      "title": "3",
-      "description": "3",
-      "price": "3",
-      "phone": "3",
-      "gender": "true",
-      "id": 30
-    },
-    {
-      "title": "female",
-      "description": "female",
-      "price": "1",
-      "phone": "1",
-      "gender": "true",
-      "id": 31
+      "id": 66
     },
     {
       "title": "1",
       "description": "1",
       "price": "1",
       "phone": "1",
-      "id": 32
+      "id": 67
     },
     {
       "title": "1",
       "description": "1",
       "price": "1",
       "phone": "1",
-      "id": 33
+      "id": 68
     },
     {
       "title": "1",
       "description": "1",
       "price": "1",
       "phone": "1",
-      "id": 34
+      "id": 69
     },
     {
       "title": "1",
       "description": "1",
       "price": "1",
       "phone": "1",
-      "id": 35
+      "id": 70
     },
     {
       "title": "1",
       "description": "1",
       "price": "1",
       "phone": "1",
-      "id": 36
+      "id": 71
     },
     {
       "title": "1",
       "description": "1",
       "price": "1",
       "phone": "1",
-      "id": 37
+      "id": 72
     },
     {
       "title": "1",
       "description": "1",
       "price": "1",
       "phone": "1",
-      "id": 38
-    },
-    {
-      "title": "1",
-      "description": "1",
-      "price": "1",
-      "phone": "1",
-      "id": 39
-    },
-    {
-      "title": "1",
-      "description": "1",
-      "price": "1",
-      "phone": "1",
-      "id": 40
-    },
-    {
-      "title": "1",
-      "description": "1",
-      "price": "1",
-      "phone": "1",
-      "id": 41
-    },
-    {
-      "title": "11",
-      "description": "1",
-      "price": "1",
-      "phone": "1",
-      "id": 42
-    },
-    {
-      "title": "11",
-      "description": "1",
-      "price": "1",
-      "phone": "1",
-      "id": 43
-    },
-    {
-      "title": "11",
-      "description": "1",
-      "price": "1",
-      "phone": "1",
-      "id": 44
-    },
-    {
-      "title": "11",
-      "description": "1",
-      "price": "1",
-      "phone": "1",
-      "id": 45
-    },
-    {
-      "title": "11",
-      "description": "1",
-      "price": "1",
-      "phone": "1",
-      "id": 46
-    },
-    {
-      "title": "11",
-      "description": "1",
-      "price": "1",
-      "phone": "1",
-      "id": 47
-    },
-    {
-      "title": "11",
-      "description": "1",
-      "price": "1",
-      "phone": "1",
-      "id": 48
-    },
-    {
-      "title": "11",
-      "description": "1",
-      "price": "1",
-      "phone": "1",
-      "id": 49
-    },
-    {
-      "title": "11",
-      "description": "1",
-      "price": "1",
-      "phone": "1",
-      "id": 50
-    },
-    {
-      "title": "11",
-      "description": "1",
-      "price": "1",
-      "phone": "1",
-      "id": 51
+      "id": 73
     }
   ]
 }

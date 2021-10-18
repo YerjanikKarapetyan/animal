@@ -28,12 +28,14 @@ const Login = () => {
                 <input value ={pass} type={'password'} onChange={passFunc}/>
             </div>
             <div>
-                <button>
+                <button className={'login-button'}>
                     Login
                 </button>
+                <button className={'cancel-button'}>
+                    Cancel
+                </button>
             </div>
-            </div>
-           
+            </div>          
         </div>
     )
 }

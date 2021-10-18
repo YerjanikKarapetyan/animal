@@ -11,12 +11,13 @@
   background: #fff;
   padding: 30px;
   width: 90%;
-  max-width: 450px;
+  max-width: 300px;
   position: relative;
   padding: 0px;
   box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
   text-align: center;
   margin: 0 auto;
+  background-color: rgb(255, 255, 255);
 }
 
 .main-login h4{
@@ -25,4 +26,44 @@
 
 .main-login button{
     
+}
+
+.login-button{
+    margin: 5px;
+    color: white;
+    width: 30%;
+    background-color: royalblue;
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    height: 30px;
+    border: none;
+
+}
+
+.cancel-button{
+    margin: 5px;
+    color: white;
+    width: 30%;
+    background-color: rgb(225, 65, 65);
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    height: 30px;
+    border: none;
+
+}
+
+.login-button:hover{
+    color: white;
+    background-color: rgb(53, 86, 184);
+    border: none;
+}
+
+.cancel-button:hover{
+    color: white;
+    background-color: rgb(180, 55, 55);
+    border: none;
+}
+
+.input-login input{
+    border: none;
+    background-color: rgb(219, 211, 219);
+    margin-bottom:20px ;
 }
