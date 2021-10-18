@@ -1,3 +1,4 @@
+
 .navbarItems{
     top: 0;
     left: 0;
@@ -6,6 +7,8 @@
     overflow: hidden;
     position: fixed;
     justify-content: space-between;
+    background-color: rgb(63, 75, 141);
+    opacity: 0.7;
 }
 
 .navbarLogo{
@@ -40,7 +43,7 @@
 
 .navbarItems ul li a:hover, a:active {
     border-right: white 1px solid;
-    border-bottom: white 1px solid;
+    /* border-bottom: white 1px solid; */
     color: white;
     
  }

@@ -13,22 +13,22 @@ const Navbar = () =>{
         <Router>
         <div>
           <nav className = {'navbarItems'}>
-          <h1 className = {'navbarLogo'}><i className='fas fa-fish'></i></h1>
+          <h1 className = {'navbarLogo'}><i className='fas fa-fish'> 093914361</i></h1>
             <ul className = {'nav-menu'}>
               <li>
-                <Link to="/Products">Products</Link>
+                <Link to="/Products">Ապրանքներ</Link>
               </li>
               <li>
-                <Link to="/Services">Services</Link>
+                <Link to="/Services">Ծառայություններ</Link>
               </li>
               <li>
-                <Link to="/About">About</Link>
+                <Link to="/About">Մենք</Link>
               </li>
               <li>
-                <Link to="/ContactUs">Contact us</Link>
+                <Link to="/ContactUs">Կապ մեզ հետ</Link>
               </li>
               <li>
-                <Link to='/Login'>Login</Link>
+                <Link to='/Login'>Լոգին</Link>
               </li>
             </ul>
           </nav>
