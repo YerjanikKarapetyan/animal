@@ -75,25 +75,18 @@ const Product = () =>{
                         <br></br>
                         <input value ={title} onChange={titleInput} maxLength={'12'}/>
                     </div>
-                    <p className={'product-description'} key={Product.id}>
-                        <span>Description:</span>
-                        <br></br>
-                        <textarea value={description} onChange={descriptionInput} maxLength={'250'} rows="3" cols="25"/>
-                    </p>
+                    <div>
+                        <p className={'product-description'} key={Product.id}>
+                            <span>Description:</span>
+                                <br></br>
+                            <textarea value={description} onChange={descriptionInput} maxLength={'250'} rows="3" cols="25"/>
+                        </p>
+                    </div>
                     <div className ={'product-price'} key={Product.id}>
                         <span>Price:</span>
                         <br></br>
                         <input value={price} onChange={priceInput}  maxLength={'12'} type={'Number'}/>
                     </div>
-                    <br></br>
-                    {/* <div className={'checkboxes'}>
-                        <p> Male
-                            <input type = {'checkbox'} checked={false}/>
-                        </p>
-                        <p> Female  
-                            <input type = {'checkbox'} checked={false}/>
-                        </p>
-                    </div> */}
                     <div>
                         <span>Phone:</span>
                         <br></br>

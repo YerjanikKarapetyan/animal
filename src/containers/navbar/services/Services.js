@@ -1,7 +1,29 @@
-import React from 'react';
+import React ,{useState} from 'react';
 import './Services.css';
 
 const Services = () =>{
+  
+
+    const[wid, setWid] = useState('');
+    const funcWidth = (eventWidth) => setWid(eventWidth.target.value);
+
+    const[hei, setHei] = useState('');
+    const funcHei = (eventHei) => setHei(eventHei.target.value); 
+
+    const[len, setLen] = useState('');
+    const funcLen = (eventLen) => setLen(eventLen.target.value); 
+
+    
+    const[calc, setCalc] = useState('');
+    const Calculator = (eventCalc) => setCalc(eventCalc.target.value);
+
+    const[calcLiter,setCalcLiter]=useState('')
+    const calculateLiter = () => {
+        setCalcLiter = len * hei * wid;
+    }   
+    
+
+
 
     return(
         <div>
@@ -21,6 +43,21 @@ const Services = () =>{
                             <p>
                                 Ցանկացած չափի ակվարոիմների, ակվարումային պարագաների և դեկոռների պատրաստում։
                             </p>
+                                <ul>
+                                    <li className={'calcilator-inputs'}>
+                                        Լ․ <input value={wid} onChange={funcWidth} type={'number'} /> cm
+                                    </li>
+                                    <li className={'calcilator-inputs'}>
+                                        Բ․<input value={hei} onChange={funcHei} type={'number'} /> cm
+                                    </li>
+                                    <li className={'calcilator-inputs'}>
+                                        Ե․<input value={len} onChange={funcLen} type={'number'} /> cm
+                                    </li>
+                                    <li>
+                                        {calculateLiter}
+                                     </li>   
+                                    <button className={'calculator-button'} value={calc} onClick={Calculator}>Հաշվիչ</button>
+                                </ul>
                     </li>
                     <li className={'list-services-li'}>
                         <h2>Խորհրդատվություն</h2>
