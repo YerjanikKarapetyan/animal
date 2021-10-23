@@ -14,16 +14,15 @@ const Services = () =>{
     const funcLen = (eventLen) => setLen(eventLen.target.value); 
 
     
-    const[calc, setCalc] = useState('');
-    const Calculator = (eventCalc) => setCalc(eventCalc.target.value);
+    // const[calc, setCalc] = useState('');
+    // const Calculator = (eventCalc) => setCalc(eventCalc.target.value);
 
-    const[calcLiter,setCalcLiter]=useState('')
-    const calculateLiter = () => {
-        setCalcLiter = len * hei * wid;
-    }   
-    
-
-
+    const[calcLiter,setCalcLiter]=useState(0);
+    const calculateLiter = (eventCalc) => {
+        setCalcLiter(eventCalc.target.value);
+        setCalcLiter((len * hei * wid)/1000);
+    }
+        
 
     return(
         <div>
@@ -43,21 +42,29 @@ const Services = () =>{
                             <p>
                                 Ցանկացած չափի ակվարոիմների, ակվարումային պարագաների և դեկոռների պատրաստում։
                             </p>
-                                <ul>
-                                    <li className={'calcilator-inputs'}>
-                                        Լ․ <input value={wid} onChange={funcWidth} type={'number'} /> cm
-                                    </li>
-                                    <li className={'calcilator-inputs'}>
-                                        Բ․<input value={hei} onChange={funcHei} type={'number'} /> cm
-                                    </li>
-                                    <li className={'calcilator-inputs'}>
-                                        Ե․<input value={len} onChange={funcLen} type={'number'} /> cm
-                                    </li>
-                                    <li>
-                                        {calculateLiter}
-                                     </li>   
-                                    <button className={'calculator-button'} value={calc} onClick={Calculator}>Հաշվիչ</button>
-                                </ul>
+                                    <p>Հաշվիչ</p>
+                            <div className={'calculator'}>
+                                <div>
+                                    <ul className={'list-services-li-aquarium'}>
+                                        <li className={'calcilator-inputs'}>
+                                            Լ․ <input value={wid} onChange={funcWidth} type={'number'} /> cm
+                                        </li>
+                                        <li className={'calcilator-inputs'}>
+                                            Բ․<input value={hei} onChange={funcHei} type={'number'} /> cm
+                                        </li>
+                                        <li className={'calcilator-inputs'}>
+                                            Ե․<input value={len} onChange={funcLen} type={'number'} /> cm
+                                        </li> 
+                                    </ul>
+                                </div>
+                                <div>
+                                <button className={'calculator-button'} value={calcLiter} onClick={calculateLiter}>Հաշվել</button>
+                                    <span className={'list-services-li-calc'}>
+                                        {calcLiter}L
+                                    </span>
+                                </div>     
+                            </div>
+                            
                     </li>
                     <li className={'list-services-li'}>
                         <h2>Խորհրդատվություն</h2>
