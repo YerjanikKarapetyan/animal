@@ -1,0 +1,67 @@
+.main-services{
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: 85px;
+    max-width: 1200px;
+    max-height: max-content;
+    /* background-color: white; */
+    opacity: 0.8;
+    color: white;
+    text-align: center;
+
+}
+
+.title-services{
+    color: rgb(69, 77, 82);
+    text-align: center;
+    margin: 3px;
+    padding: 0;
+}
+
+.description-services{
+
+}
+
+.list-services{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    color: black;
+    /* background-color: white; */
+    
+    margin-top: 10px;
+    margin: 0;
+}
+
+.list-services-li{
+    margin: 0;
+    max-width: 450px;
+    background-color: white;
+    text-align: center;
+    opacity: 0.75;
+    position: relative;
+    max-block-size: 50%;
+}
+
+.list-services-li:hover{
+    opacity: 1;
+}
+
+.calculator-button{
+    margin: 5px;
+}
+
+.calcilator-inputs{
+    display: flex;
+    margin: 5px;
+}
+
+.list-services-li-calc{
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+.calculator{
+    display: flex;
+}
