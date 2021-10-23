@@ -60,7 +60,7 @@ const Services = () =>{
                                 <div>
                                 <button className={'calculator-button'} value={calcLiter} onClick={calculateLiter}>Հաշվել</button>
                                     <span className={'list-services-li-calc'}>
-                                        {calcLiter}L
+                                        {calcLiter}L l 
                                     </span>
                                 </div>     
                             </div>
