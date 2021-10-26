@@ -3,6 +3,7 @@
     flex-flow: wrap;
     margin-top: 80px;
     max-width: 100%;
+    justify-content: center;
     
 }
 
@@ -75,7 +76,7 @@
 }
 
 .product-ul{
-    opacity: 0.5;
+    opacity: 0.9;
     display: flex;
     background-color:  #ffffff;
     flex-direction: column;
