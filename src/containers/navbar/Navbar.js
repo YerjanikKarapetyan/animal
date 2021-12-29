@@ -21,12 +21,12 @@ const Navbar = () =>{
               <li>
                 <Link to="/Services">Ծառայություններ</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/About">Մենք</Link>
               </li>
               <li>
                 <Link to="/ContactUs">Կապ մեզ հետ</Link>
-              </li>
+              </li> */}
               <li>
                 <Link to='/Login'>Լոգին</Link>
               </li>
@@ -48,7 +48,6 @@ const Navbar = () =>{
             <Route path ="/Login">
               <Login/>
             </Route>
-          
             <Route path="/">
               <div>Home component</div>
             </Route>
